@@ -1,0 +1,33 @@
+/* .banner_img::before {
+    content: "";
+    background: url('https://4.bp.blogspot.com/-Mv9IWmbh_XU/Wlj3Pjmi-zI/AAAAAAAAVRQ/HZbApZJfI9YDiJPACij78PFLY6VSletlACLcBGAs/s1600/Coco-Pre-Order.JPG') no-repeat center/cover;
+    position: absolute;
+    top: 0px;
+    height: 25rem;
+    width: 100vw;
+    z-index: -2;
+    opacity: .90;
+} */
+
+.banner_img {
+    max-width: 100vw;
+    object-fit: scale-down;
+    height: 25rem;
+    display: block;
+    margin: auto;
+    border: 5px solid rgba(114, 114, 114, 0.1);
+    border-radius: .5rem !important;
+}
+
+
+.carasousel {
+    margin: 8vh 1vw;
+}
+
+
+@media (max-width:768px) {
+    .banner_img {
+        object-fit: cover;
+        height: 11.5rem;
+    }
+}
