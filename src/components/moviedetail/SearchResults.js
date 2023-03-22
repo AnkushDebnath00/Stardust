@@ -24,23 +24,19 @@ const SearchResults = () => {
     url = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${movietype}`;
   }
 
-  const searchMovie = async (e) => {
-    console.log("Searching " + movietype);
-    try {
-      const res = await fetch(url);
-      const data = await res.json();
-      setMovies(data.results);
-    } catch (e) {
-      console.log(e);
-    }
-  };
-
-  useEffect(
-    (searchMovie) => {
-      searchMovie();
-    },
-    [movietype]
-  );
+  useEffect(() => {
+    const searchMovie = async (e) => {
+      console.log("Searching " + movietype);
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        setMovies(data.results);
+      } catch (e) {
+        console.log(e);
+      }
+    };
+    searchMovie();
+  }, [movietype]);
 
   return (
     <div className="abc">
