@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "https://stardustmv.netlify.app/static/css/main.d4eb180a.css",
+    "main.js": "https://stardustmv.netlify.app/static/js/main.3f22710c.js",
+    "static/media/logo.png": "https://stardustmv.netlify.app/static/media/logo.a8649a95196eef0216a8.png",
+    "static/media/logo2.png": "https://stardustmv.netlify.app/static/media/logo2.a8649a95196eef0216a8.png",
+    "static/media/revicons.eot": "https://stardustmv.netlify.app/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "https://stardustmv.netlify.app/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "https://stardustmv.netlify.app/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "https://stardustmv.netlify.app/index.html",
+    "main.d4eb180a.css.map": "https://stardustmv.netlify.app/static/css/main.d4eb180a.css.map",
+    "main.3f22710c.js.map": "https://stardustmv.netlify.app/static/js/main.3f22710c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4eb180a.css",
+    "static/js/main.3f22710c.js"
+  ]
+}
