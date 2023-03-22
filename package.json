@@ -1,7 +1,7 @@
 {
-  "name": "movie-project-final",
+  "name": "Stardust",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +15,6 @@
     "react-toastify": "^9.1.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage":"https://stardustmv.netlify.app",
 
   "scripts": {
     "start": "react-scripts start",
