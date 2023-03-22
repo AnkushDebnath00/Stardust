@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { API_KEY, API_IMG, API_SEARCH, API_URL } from "../key/key";
+import { API_KEY, API_IMG } from "../key/key";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import "./searchResults.css";
@@ -35,9 +35,12 @@ const SearchResults = () => {
     }
   };
 
-  useEffect(() => {
-    searchMovie();
-  }, [movietype]);
+  useEffect(
+    (searchMovie) => {
+      searchMovie();
+    },
+    [movietype]
+  );
 
   return (
     <div className="abc">

@@ -12,7 +12,7 @@ const MovieDetails = () => {
 
   const { id } = useParams();
 
-  useEffect(() => {
+  useEffect((id) => {
     const url = `https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}`;
     const reviewUrl = `https://api.themoviedb.org/3/movie/${id}/reviews?api_key=${API_KEY}&language=en-US`;
     fetch(url)
@@ -101,7 +101,7 @@ const MovieDetails = () => {
         </div>
       </div>
       <div className="reviews">
-        {review.length == 0 || <h1>Reviews:</h1>}
+        {review.length === 0 || <h1>Reviews:</h1>}
         {review.map((e) => {
           let avatarUrl = e.author_details.avatar_path;
           if (avatarUrl) {

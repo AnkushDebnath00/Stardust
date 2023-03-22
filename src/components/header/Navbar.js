@@ -1,21 +1,10 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import Badge from "@mui/material/Badge";
-import Avatar from "@mui/material/Avatar";
-import { Outlet, NavLink, useNavigate } from "react-router-dom";
-import {
-  Drawer,
-  IconButton,
-  List,
-  ListItem,
-  Menu,
-  MenuItem,
-} from "@mui/material";
+import { NavLink, useNavigate } from "react-router-dom";
+import { Drawer, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import Rightheader from "./Rightheader";
-import LogoutIcon from "@mui/icons-material/Logout";
 import logo from "../header/logo.png";
 
 const Navbar = () => {
